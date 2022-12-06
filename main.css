@@ -1,0 +1,211 @@
+body {
+   text-align: center;
+   background-color: #283149;
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+} 
+
+.Q {
+    background-image: url("./picREF/KICK.png");
+    background-color: transparent;
+    background-size: 100% 100%;
+    cursor: pointer;
+    height: 230px;
+    width: 230px;
+
+}
+.S {
+    background-image: url("./picREF/SNARE.png");
+    background-color: transparent;
+    background-size: 100% 100%;
+    cursor: pointer;
+    height: 230px;
+    width: 230px;
+}
+
+.D {
+    background-image: url("./picREF/TOM.png");
+    background-color: transparent;
+    background-size: 100% 100%;
+    cursor: pointer;
+    height: 230px;
+    width: 230px;
+}
+.F {
+    background-image: url("./picREF/FLOOR.png");
+    background-color: transparent;
+    background-size: 100% 100%;
+    cursor: pointer;
+    height: 230px;
+    width: 230px;
+}
+.G {
+    background-image: url("./picREF/CRASH.png");
+    background-color: transparent;
+    background-size: 100% 100%;
+    cursor: pointer;
+    height: 230px;
+    width: 230px;
+}
+.H {
+    background-image: url("./picREF/RIDE.png");
+    background-color: transparent;
+    background-size: 100% 100%;
+    cursor: pointer;
+    height: 230px;
+    width: 230px;
+}
+.J {
+    background-image: url("./picREF/SPLASH.png");
+    background-color: transparent;
+    background-size: 100% 100%;
+    cursor: pointer;
+    height: 230px;
+    width: 230px;
+}
+.K {
+    background-image: url("./picREF/OPEN.png");
+    background-color: transparent;
+    background-size: 100% 100%;
+    cursor: pointer;
+    height: 230px;
+    width: 230px;
+}
+.L {
+    background-image: url("./picREF/CLOSE.png");
+    background-color: transparent;
+    background-size: 100% 100%;
+    cursor: pointer;
+    height: 230px;
+    width: 230px;
+}
+
+.main-bottom-section {
+    background-image: url("./ImageREF/metalWM.png");
+    width: 100%;
+    height: 500px;
+}
+
+.top-header {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    background: #D8D8D8;
+}
+
+.pressed {
+   box-shadow: 0 3px 4px 0 #dbedf3;
+   opacity: 0.5;
+}
+
+
+.menu {
+    width: 100px;
+    height: 40px;
+    float: left;
+    display: inline-block;
+}
+
+.menu-icon {
+    width: 60%;
+    position: relative;
+    top: 20px;
+    cursor: pointer;
+
+
+}
+
+.logo {
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.logo-icon {
+    width: 100%;
+    cursor: pointer;
+
+}
+
+.record {
+    width: 100px;
+    height: 40px;
+    float: right;
+    display: inline-block;
+}
+
+
+.record-icon {
+    width: 100%;
+    position: relative;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+
+}
+
+h1 {
+
+}
+
+h6 {
+    color: white;o
+}
+
+p {
+    color: white;o
+}
+
+.youtube {
+    background-image: url("./ImageREF/8BIT.gif");
+    background-color: transparent;
+    background-size: 100% 100%;
+    cursor: pointer;
+    height: 230px;
+    width: 390px;
+    text-shadow: 1px 1px 2px black;
+    box-shadow: 1px 1px 2px black;
+    transition: 0.3s ease;
+}
+
+.youtube2 {
+    background-image: url("./ImageREF/180.gif");
+    background-color: transparent;
+    background-size: 100% 100%;
+    cursor: pointer;
+    height: 230px;
+    width: 390px;
+    text-shadow: 1px 1px 2px black;
+    box-shadow: 1px 1px 2px black;
+    transition: 0.3s ease;
+}
